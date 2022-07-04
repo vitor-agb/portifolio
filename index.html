@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Vitor Barbeiro</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="header_menu">
+                <div class="logo">
+                    &lt;VB&gt;
+                </div>
+                <div class="menu">
+                    <div class="menu_item">
+                        <ul>
+                            <li><a href="#page">Home</a></li>
+                            <li><a href="#about">Sobre</a></li>
+                            <li><a href="#project">Projetos</a></li>
+                            <li><a href="#contact">Contato</a></li>
+                        </ul>
+                    </div>
+                        <div class="menu_bar open_menu">
+                            <div class="menu_bar__line"></div>
+                            <div class="menu_bar__line"></div>
+                            <div class="menu_bar__line"></div>
+                        </div>
+                        <div class="menu_x"><img src="assets/img/x.png"/></div>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="page" class="page">
+        <div class="home">
+            <div class="home_left">
+                <div class="home_left__title">
+                    <h4>Olá, eu sou</h4>
+                    <h1>Vitor Barbeiro</h1>
+                    <h6>AKA Dezenove</h6>
+                    <h4>Desenvolver<br/>Front-End</h4>
+                </div>
+                <div class="home_left__contact">
+                    <div class="home_left__contact_icons">
+                        <div class="home_left__contact_icon"><img src="assets/img/linkedin.png" alt="LINKDEN"/>Linkden</div>
+                        <div class="home_left__contact_icon"><img src="assets/img/github.png" alt="GITHUB"/>Github</div>
+                    </div>
+                </div>
+            </div>
+            <div class="home_right">
+                <div><span>19</span></div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="default">
+            <div class="section_title">Sobre Mim</div>
+                <div class="section_body ">
+                    <div class="section_aboutme">
+                        <div class="section_aboutme__picture">
+                            <img src="assets/img/profile.jpg" alt="profile picture"/>
+                        </div>
+                        <div class="section_aboutme__info">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio non magni dolorem quia iusto fugit, repellendus quis assumenda maiores ipsum nobis nemo dignissimos ipsa! Numquam voluptates dolorum reiciendis optio tenetur.
+                            Quos sapiente praesentium enim distinctio adipisci velit dignissimos accusamus asperiores corrupti animi accusantium repellat excepturi maxime laboriosam doloremque unde deleniti nulla, illum laborum mollitia quia vitae. Numquam fugit saepe illo.
+                            Atque nulla et mollitia dicta earum molestias dolorem veniam aut ex minima nam, quibusdam iusto exercitationem necessitatibus ab dolor, quaerat dolore dolorum cupiditate ipsam architecto repellendus esse. Repellat, esse vero!
+                        </div>
+                        
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="default gray">
+        <div class="section_body ">
+            <div class="section_aboutme__skill">
+                <div>Habilidades nos softwares</div>
+                <div class="section_aboutme__skill_logo">
+                    <div><img src="assets/img/html52.png" alt="html5" onmouseover="this.src='assets/img/html5.png'" onmouseout="this.src='assets/img/html52.png'" /></div>
+                    <div><img src="assets/img/css32.png" alt="css3" onmouseover="this.src='assets/img/css3.png'" onmouseout="this.src='assets/img/css32.png'"/></div>
+                    <div><img src="assets/img/js2.png" alt="javascript" onmouseover="this.src='assets/img/js.png'" onmouseout="this.src='assets/img/js2.png'"/></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="project" class="default">
+        <div class="section_title">Projetos</div>
+            <div class="section_body ">
+                <div class="section_projects">
+                    <div class="section_projects_showcase">
+                        <div class="section_projects_display"><span>Em Breve</span></div>
+                        <div class="section_projects_display"><span>Em Breve</span></div>
+                        <div class="section_projects_display"><span>Em Breve</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="default">
+        <div class="section_title">Contato</div>
+            <div class="section_body ">
+                <div class="section_contact">
+                    <div class="section_contact__social">
+                        <div><img src="assets/img/linkedin.svg" alt="LINKDEN"/></div>
+                        <div><img src="assets/img/github.svg" alt="GITHUB"/></div>
+                    </div>
+                    <div class="section_contact__form">
+                        <form method="POST" class="validator">
+                            <label>
+                                Seu nome:<br/>
+                                <input type="text" name="name" data-rules="required"/>
+                            </label>
+                            
+                            <label>
+                                Seu e-mail:<br/>
+                                <input type=""e-mail" name="email" data-rules="required|email"/>
+                            </label>
+                            <label>
+                                Assunto:<br/>
+                                <input type="text" name="subject" data-rules="required"/>
+                            </label>
+                            <label>
+                                Mensagem:<br/>
+                                <input type="text" name="subject" data-rules="required"/>
+                            </label>
+                            <label>
+                                <input type="submit" value="Cadastrar"/>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
