@@ -246,7 +246,7 @@ header .logo {
 
 .section_title:before {
     content: '';
-    background: url('/assets/img/dotted.png') 
+    background: url('assets/img/dotted.png') 
         no-repeat center center/cover;
     position: absolute;
     transform: rotate(122deg);
